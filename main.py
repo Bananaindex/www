@@ -6,3 +6,9 @@ def index():
   return render_template("index.html")
 
 app.run(host='0.0.0.0', port=8080)
+
+import os
+from flask import send_from_directory
+
+
+
